@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+div {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px
+}
+/*------------------------------------------------------*/
+.estrela{
+   position: absolute;
+    top: 55px;
+    left: -59px;
+    color: #FF463A;
+}
+
+.estrela-2 { 
+    position: absolute;
+    top: 5px;
+    left: 515px;
+    color: #FF463A;
+}
+
+.estrela-3{
+    position: absolute;
+    top: 75px;
+    left: 515px;
+    color: #FF463A;
+}
+
+.estrela-4{
+    position: absolute;
+    top: 145px;
+    left: 515px;
+    color: #FF463A;
+}
+/*--------------------------------------------------*/
+
+.tabela{
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.tabela div{
+    position: absolute;
+    width: 172px;                   
+    height: 50px;
+    left: 101px;
+    top: 60px;
+}
+
+.novo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 160px;
+    top: 160px;
+
+    background: #FFE6E5;
+    border-radius: 5px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+    color: #FF463A;
+}
+
+.gratis{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1095px;
+    top: 142px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: right;
+
+    color: #FF463A;
+}
+
+.numero1-1{
+    display: none;
+}
+
+.numero1{
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 1080px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: right;
+
+    color: #00235C;
+}
+
+.numero{
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 1080px;
+    top: 71px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: right;
+
+    color: #00235C;
+}
+
+.reta-vermelha{
+    position: absolute;
+    width: 0px;
+    height: 100px;
+    left: 0px;
+    top: 9px;
+
+    border-left: 4px solid #FF463A;
+    border-radius: 15px ;
+}
+
+.etiqueta{
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 510px;
+    top: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+}
+
+.tag{
+    position: absolute;
+    left: 350px;
+    top: 13px;
+    color: #00235C;
+}
+
+.usuario{
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    left: 515px;
+    top: 65px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+}
+
+.user{
+    position: absolute;
+    left: 350px;
+    top: 60px;
+    color: #00235C;
+}
+
+.timer{
+    position: absolute;
+    width: 118px;
+    height: 25px;
+    left: 671px;
+    top: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+}
+
+.watch{
+    position: absolute;
+    left: 510px;
+    top: 13px;
+    color: #00235C;
+}
+
+.online{
+    position: absolute;
+    width: 170px;
+    height: 25px;
+    left: 671px;
+    top: 65px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+}
+
+.laptop{
+    position: absolute;
+    left: 510px;
+    top: 60px;
+    color: #00235C;
+}
+
+.detalhe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 1000px;
+    top: 025px;
+    background: #116CFF;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.All-Class{
+    display: none;
+}
+
+table{
+    position: absolute;
+    border-collapse: collapse;
+    width: 1166px;
+    height: 259px;
+    left: 101px;
+    top: 277px;  
+}
+
+thead{
+    position: absolute;
+    width: 1165px;
+    height: 115px;
+    left: 1px;
+    top: -114px;
+    
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+tbody{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #116CFF;
+}
+
+td{
+    border: 0.5px solid #116CFF; 
+    text-align: left;
+    padding: 20px;
+  
+}
+
+th{
+    position: absolute;
+    width: 288px;
+    height: 30px;
+    left: 24px;
+    top: 16px;
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #00235C;
+}
+
+tr{
+    background-color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------------*/
+@media screen and (max-width: 1200px){
+
+    body {
+        margin: 0;
+    }
+    
+    div {
+        height: 130vh;
+    }
+    
+    h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 50px
+    }
+    /*------------------------------------------------------*/
+    .estrela{
+        position: absolute;
+        top: 65px;
+        left: -55px;
+        color: #FF463A;
+    }
+    
+    .estrela-2 { 
+        position: absolute;
+        top: 35px;
+        left: 31px;
+        color: #FF463A;
+    }
+    
+    .estrela-3{
+        position: absolute;
+        top: 125px;
+        left: 31px;
+        color: #FF463A;
+    }
+    
+    .estrela-4{
+        position: absolute;
+        top: 215px;
+        left: 31px;
+        color: #FF463A;
+    }
+    /*--------------------------------------------------*/
+    
+    .All-Class{
+        display: flex;
+
+        position: absolute;
+        width: 153px;
+        height: 33px;
+        left: 195px;
+        top: 700px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+     
+    }
+    .All-Class1{
+        display: none;
+    }
+    
+
+    .tabela{
+        display: flex;
+        align-items: center;             
+        justify-content: center;
+    
+        color: #FFFFFF;
+        background-color: #116CFF;
+    }
+    
+    .tabela div{
+        position: absolute;
+        width: 172px;                   
+        height: 50px;
+        left: 75px;
+        top: 40px;
+    }
+    
+    .novo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 8px;
+    
+        position: absolute;
+        width: 47px;
+        height: 25px;
+        left: 175px;
+        top: 210px;
+    
+        background: #FFE6E5;
+        border-radius: 5px;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 21px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        
+        text-align: center;
+        color: #FF463A;
+    }
+    
+    .gratis{
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        left: 430px;
+        top: 209px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        
+        text-align: right;
+        
+        color: #FF463A;
+    }
+
+    /*---------------------------------------------------------------------------------*/
+    .numero1-1{
+        display: flex;
+        position: absolute;
+        width: 67px;
+        height: 30px;
+        left: 413px;
+        top: 40px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    
+        text-align: right;
+    
+        color: #00235C;
+    }
+
+    .numero1{
+        display: none;
+    }
+    
+    .numero{
+        position: absolute;
+        width: 67px;
+        height: 30px;
+        left: 413px;
+        top: 130px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        
+        text-align: right;
+        
+        color: #00235C;
+    }
+    
+    .reta-vermelha{
+        position: absolute;
+        width: 0px;
+        height: 226px;
+        left: 0px;
+        top: 7px;
+        
+        border-left: 4px solid #FF463A;
+        border-radius: 15px ;
+    }
+    
+    .etiqueta{
+        position: absolute;
+        width: 105px;
+        height: 25px;
+        left: 56px;
+        top: 117px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #00235C;
+    }
+    
+    .tag{/*------------------------------*/
+        position: absolute;
+        left: -105px;
+        top: 113px;
+        color: #00235C;
+    }
+    
+    .usuario{
+        position: absolute;
+        width: 95px;
+        height: 25px;
+        left: 61px;
+        top: 166px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #00235C;
+    }
+    /*---------------------------*/
+    .user{
+        position: absolute;
+        left: -105px;
+        top: 160px;
+        color: #00235C;
+    }
+    
+    .timer{
+        position: absolute;
+        width: 118px;
+        height: 25px;
+        left: 217px;
+        top: 117px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #00235C;
+    }
+    /*------------------------------------*/
+    .watch{
+        position: absolute;
+        left: 55px;
+        top: 112px;
+        color: #00235C;
+    }
+    
+    .online{
+        position: absolute;
+        width: 170px;
+        height: 25px;
+        left: 217px;
+        top: 166px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #00235C;
+    }
+    /*---------------------------------*/
+    .laptop{
+        position: absolute;
+        left: 55px;
+        top: 161px;
+        color: #00235C;
+    }
+    
+    .detalhe{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 5px;
+        position: absolute;
+        width: 135px;
+        height: 50px;
+        left: 336px;
+        top: 16px;
+        background: #116CFF;
+        border-radius: 10px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+
+
+    table{
+        position: absolute;
+        border-collapse: collapse;
+        width: 500px;
+        height: 274px;
+        
+    }
+    
+    thead{
+        position: absolute;
+        width: 500px;
+        height: 234px;
+        left: -25px;
+        top: -120px;
+        
+        background-color: white;
+        border-radius: 10px 10px 0px 0px;
+    
+    }
+    
+    tbody{
+        position: relative;
+        left: -25px;
+        top: 113px;  
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        
+        color: #116CFF;
+    }
+    
+    td{
+        border: 0.5px solid #116CFF; 
+        text-align: left;
+        padding: 30px;
+
+    }
+    
+    th{
+        position: absolute;
+        width: 288px;
+        height: 30px;
+        left: 24px;
+        top: 16px;
+       
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #00235C;
+    }
+
+}
